@@ -1,0 +1,5 @@
+name =  "Ishaan"
+
+
+
+print(name[::-])
