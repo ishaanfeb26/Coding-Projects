@@ -17,9 +17,7 @@ while serving:
     remaining = amount
     idx = 1
     while idx <= 6:
-notes
-
-    if idx == 1: value = 100
+        if idx == 1: value = 100
     elif idx == 2: value = 50
     elif idx == 3: value = 20
     elif idx == 4: value = 10
