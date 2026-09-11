@@ -1,0 +1,18 @@
+import random
+
+secret = random.randint(1, 50)
+
+print("Welcome to the Guessing Game!")
+print("I'm thinking of a number between 1 and 50.")
+print("You have 5 attempts to guess it!")
+print("Good luck!")
+guess = int(input("Enter your guess: "))
+guess = int(input("Enter your guess: "))
+if abs(guess - secret) <= 10:
+		print("WARM!")
+elif abs(guess - secret) <= 5:
+		print("HOT!")
+elif abs (guess - secret) >= 20:
+	print("COLD!")
+elif abs(guess - secret) >= 35:
+	print("ICE COLD!")
